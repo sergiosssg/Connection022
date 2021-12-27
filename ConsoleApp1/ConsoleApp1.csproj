@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="EntityFramework.Firebird" Version="7.10.0" />
     <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="7.10.1" />
+    <PackageReference Include="lcpi.data.oledb" Version="1.25.2.4577" />
   </ItemGroup>
 
 </Project>
