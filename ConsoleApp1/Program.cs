@@ -29,7 +29,7 @@ namespace ConsoleApp1
 
 
 
-                    var simpleQueryOfVidConnects = dbContent.pO_TEL_VID_CONNECTs.Where(s => s.Id > 0);
+                    /*var simpleQueryOfVidConnects = dbContent.pO_TEL_VID_CONNECTs.Where(s => s.Id > 0);
 
 
                     Console.WriteLine("=================================================");
@@ -37,19 +37,19 @@ namespace ConsoleApp1
                     {
                         Console.WriteLine(" Id = {0}  Kod связи {1}  Название вида связи {2}", oneElement.Id, oneElement.KodOfConnect, oneElement.Name);
                     }
-                    Console.WriteLine("=================================================");
+                    Console.WriteLine("=================================================");*/
 
 
 
 
-                    /*var simpleVidConnects = dbContent.pO_TEL_VID_CONNECTs;
+                    var simpleVidConnects = dbContent.pO_TEL_VID_CONNECTs;
 
 
                     foreach (var oneTEL_VID_CONNECT in simpleVidConnects)
                     {
                         Console.WriteLine(" Id = {0}  Kod связи {1}  Название вида связи {2}", oneTEL_VID_CONNECT.Id, oneTEL_VID_CONNECT.KodOfConnect, oneTEL_VID_CONNECT.Name);
 
-                    }*/
+                    }
 
 
 
